@@ -10,11 +10,14 @@
 <body>
     <div class="carGame">
         <div class="score"></div>
+
         <div class="startScreen">
-            <p>Press here to start <br>
-               Use Arrow keys to move <br>
-               If you hit another car you will lose.  
+            <p>
+                Press here to start <br>
+                Use Arrow keys / Buttons to move <br>
+                If you hit another car you will lose  
             </p>
+
             <div>Select Level
                 <span class="level">
                     <button id="easy">Easy</button>
@@ -23,8 +26,20 @@
                 </span>
             </div>
         </div>
+
         <div class="gameArea"></div>
+
+        <!-- ✅ MOBILE CONTROLS -->
+        <div class="controls">
+            <button id="up">⬆️</button>
+            <div>
+                <button id="left">⬅️</button>
+                <button id="right">➡️</button>
+            </div>
+            <button id="down">⬇️</button>
+        </div>
     </div>
+
     <script src="gameHandler.js"></script>
 </body>
 </html>
